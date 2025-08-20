@@ -42,6 +42,7 @@ npm run dev
 - **API Service:** Axios pro HTTP volání na backend
 - **State Management:** React Query pro server state
 - **TinyMCE:** Rich text editor pro emailové šablony
+- **⚠️ Poznámka:** Vkládání a čtení proměnných v editorech ještě není správně implementováno a je potřeba to opravit. Skoušel jsem i vlastní editor kde to s proměnnými fungovalo, ale po návratu na TinyMCE mám problém s vkládáním proměnných a musím to opravit.
 
 
 ## Časové rozložení
@@ -76,15 +77,25 @@ npm run dev
 ### Nejdéle trvající části
 - **Emailové šablony a TinyMCE:** ~5 hodin celkem
   - TinyMCE editor implementace
-  - Vkládání proměnných z databáze
+  - ⚠️ **Vkládání proměnných z databáze** - ešte nie je správne implementované
+  - ⚠️ **Čítanie premenných** - ešte nie je správne implementované
   - Export do PDF/DOCX
   - Opravy entit a databázových problémů
   - Učení se React a TinyMCE funkcím
-  
-  **Emailové šablony a TinyMCE:** ~1 hodina celkem
 
 ### Celkový čas vývoje
 **Přibližně 17 hodin** aktivního řešení a učení
+
+## TODO - Čo ešte treba dokončiť
+
+### 🔴 Kritické problémy
+- **Vkládání proměnných v TinyMCE editore** - implementovat správně vkládání proměnných z databáze do editora (vlastní editor fungoval, TinyMCE má problém)
+- **Čtení proměnných z TinyMCE editora** - implementovat správně čtení a parsování proměnných z TinyMCE obsahu
+
+### 🟡 Vylepšenia
+- Testovanie vkladania a čítania premenných
+- Validácia formátu premenných
+- UI pre lepšie zobrazenie dostupných premenných
 
 
 
