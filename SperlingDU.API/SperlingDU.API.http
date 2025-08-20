@@ -1,0 +1,6 @@
+@SperlingDU.API_HostAddress = http://localhost:5027
+
+GET {{SperlingDU.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
