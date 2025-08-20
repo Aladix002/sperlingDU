@@ -1,5 +1,7 @@
 # Sperling DU - Implementované Řešení
 
+📹 **[Video demonštrácia projektu](https://drive.google.com/file/d/11BCBAtC_j9NOR0vjN5DERVSGYT6zBTcF/view?usp=sharing)**
+
 ## Jak Spustit
 
 ### Backend
