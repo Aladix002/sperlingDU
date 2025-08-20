@@ -80,20 +80,15 @@ npm run dev
   - TinyMCE editor implementace
   - ⚠️ **Vkládání proměnných z databáze** - ještě není správně implementované
   - ⚠️ **Čtení proměnných** - ještě není správně implementované
-  - Export do PDF/DOCX
+  - ⚠️ Export do PDF/DOCX ne úplně spŕavně formátované
   - Opravy entit a databázových problémů
   - Učení se React a TinyMCE funkcím
 
 ### Celkový čas vývoje
 **Přibližně 17 hodin** aktivního řešení a učení
 
-## TODO - Co ještě treba dokončit
 
-### 🔴 Problémy
-- **Vkládání proměnných v TinyMCE editoru** - implementovat správně vkládání proměnných z databáze do editora (vlastní editor fungoval, TinyMCE má problém)
-- **Čtení proměnných z TinyMCE editora** - implementovat správně čtení a parsování proměnných z TinyMCE obsahu
-- **PDF export** - opravit export do PDF, který ještě nefunguje v podobě jaké by měl 
-
+⚠️ - co dokončit/nefunguje správně
 
 
 
